@@ -2,6 +2,7 @@
 
 使用 Notion 和 Github Actions 同步和管理你的 Github Star.
 
+
 ## Breaking Change
 
 从 [#4](https://github.com/lcjnil/github-notion-star/issues/4) 版本开始，增加了 `Primary launguage` 和 `Repository Topics` 两个参数（by @imfycc），需要在原有 database 中增加这两个选项，否则同步会失败。
